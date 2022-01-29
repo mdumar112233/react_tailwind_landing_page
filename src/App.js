@@ -1,12 +1,14 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
+import Services from './components/Services/Services';
 function App() {
   return (
     <>
-     <div className='h-[100rem]'>
+     <div className=''>
         <Navbar /> 
         <Header />
+        <Services />
      </div>
     </>
   );
