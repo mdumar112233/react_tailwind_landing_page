@@ -59,11 +59,11 @@ const Navbar = () => {
           <ul
             className={
               menuToggle
-                ? "md:flex md:space-x-7 md:-space-y-1 space-y-4 text-[#5e6576] transition-all text-sm flex-none md:items-center bg-white absolute md:static w-full h-[27rem] md:h-0  left-0 mt-2 pl-4 md:mt-0 pt-5 md:pt-0"
+                ? "md:flex md:space-x-7 md:-space-y-1 space-y-4 text-[#5e6576] transition-all text-sm flex-none md:items-center bg-white absolute md:static w-full h-[30rem] md:h-0  left-0 mt-2 pl-4 md:mt-0 pt-5 md:pt-0"
                 : "md:flex md:space-x-7 md:-space-y-1 space-y-4 text-[#5e6576] text-sm flex-none md:items-center bg-white h-[27rem] md:h-0  absolute md:static w-full  top-10 left-[50.9rem] pl-4 transition-all"
             }
           >
-            <li className="hover:text-[#6168ff] cursor-pointer text-[#6168ff]  -mt-1">
+            <li className="hover:text-[#6168ff] cursor-pointer text-[#6168ff] md:-mt-1 mt-1">
               <a href="">Home</a>
             </li>
             <li className="hover:text-[#6168ff] cursor-pointer">

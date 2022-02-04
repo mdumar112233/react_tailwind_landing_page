@@ -9,9 +9,9 @@ import { BsFillGiftFill } from "react-icons/bs";
 
 const Services = () => {
   return (
-    <div className="h-[40rem] mt-60 grid col-auto lg:grid-cols-3 w-[80%] mx-auto">
-      
-      <div className="lg:w-80 lg:h-[70%] border border-[#5e6576] pt-12 pl-7 pr-2 rounded-3xl">
+    <div className="">
+      <div className="h-[30rem] mt-[30rem] lg:mt-80 my-12 lg:mb-0 grid grid-flow-row grid-cols-1 lg:grid-cols-3 gap-12 w-[85%] mx-auto pb-24">
+      <div className="h-auto border border-[#5e6576] pt-12 pl-7 pr-2 rounded-3xl pb-11">
         <div className="bg-services-icon-bg-blue bg-no-repeat w-full h-24 text-center">
           <div className="h-24 flex items-center w-20 justify-center">
             <CgFileDocument className="text-white text-[2.2rem] text-center block" />
@@ -43,7 +43,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="lg:w-80 lg:h-[70%] border border-[#5e6576] pt-12 pl-7 pr-2 rounded-3xl">
+      <div className="h-auto border border-[#5e6576] pt-12 pl-7 pr-2 rounded-3xl pb-11">
         <div className="bg-services-icon-bg-yellow bg-no-repeat w-full h-24 text-center">
           <div className="h-24 flex items-center w-20 justify-center">
             <FaSolarPanel className="text-white text-[2.2rem] text-center block" />
@@ -73,7 +73,7 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="lg:w-80 lg:h-[70%] border border-[#5e6576] pt-12 pl-7 pr-2  rounded-3xl">
+      <div className="h-auto border border-[#5e6576] pt-12 pl-7 pr-2  rounded-3xl pb-11">
         <div className="bg-services-icon-bg-red bg-no-repeat w-full h-24 text-center">
           <div className="h-24 flex items-center w-20 justify-center">
             <BsFillGiftFill className="text-white text-[2.2rem] text-center block" />
@@ -104,6 +104,7 @@ const Services = () => {
           <span className="text-[#5e6576]">Cursus lacus interdum sollicdn</span>
         </div>
       </div>
+    </div>
     </div>
   );
 };

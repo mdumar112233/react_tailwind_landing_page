@@ -9,6 +9,7 @@ module.exports = {
       'services-icon-bg-red': "url('/src/images/services-icon-bg-red.png')"
     },
     screens: {
+      e_sm : '350px',
       sm: '640px',
       md: '820px',
       lg: '992px',
